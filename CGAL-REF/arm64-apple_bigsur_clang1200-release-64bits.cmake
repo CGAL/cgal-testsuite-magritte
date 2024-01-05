@@ -1,0 +1,8 @@
+set(CMAKE_BUILD_TYPE "Release" CACHE STRING "")
+set(CMAKE_CXX_FLAGS_RELEASE "-Wall -Wextra -isystem /opt/homebrew/include -isystem /Users/magritte/3rdPartyLibs/install/include -O3 -DCGAL_NDEBUG -DCGAL_HAS_NO_THREADS" CACHE STRING "")
+set(BUILD_TESTING ON CACHE BOOL "")
+set(WITH_tests ON CACHE BOOL "")
+#set(Qt5_DIR "/opt/homebrew/Cellar/qt@5/5.15.2/lib/cmake/Qt5" CACHE PATH "")
+#set(Boost_DIR "/Users/magritte/3rdPartyLibs/boost/boost_install/lib/cmake/Boost-1.76.0" CACHE PATH "")
+set(CMAKE_PREFIX_PATH "/Users/magritte/3rdPartyLibs/install;/opt/homebrew/" CACHE STRING "")
+set(OpenGR_DIR "/Users/magritte/3rdPartyLibs/opengr/build-release" CACHE PATH "")

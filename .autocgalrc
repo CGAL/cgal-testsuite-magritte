@@ -1,0 +1,7 @@
+CGAL_TESTER="magritte"
+REFERENCE_PLATFORMS_DIR="CGAL-REF"
+BUILD_HOSTS="localhost"
+COMPILERS_localhost="arm64-apple_bigsur_clang1200-release-64bits"
+PROCESSORS_localhost="4"
+#Qt5_DIR="/opt/homebrew/Cellar/qt@5/5.15.2/lib/cmake/Qt5/"
+export INIT_FILE="/Users/magritte/cgal_root/CGAL-REF/arm64-apple_bigsur_clang1200-release-64bits.cmake"
